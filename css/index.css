@@ -378,9 +378,9 @@ dialog {
     max-height: 800px;
     overflow: auto;
     margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
     padding: 2rem;        /* espaço entre a imagem e a borda da janela */
     border: none;         /* remove o contorno */
     outline: none;        /* remove outline caso exista */
