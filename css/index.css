@@ -362,7 +362,7 @@ footer {
     cursor: pointer;
     outline: inherit;
 
-    align-items: left;
+    align-content: left;
     color: #8b5cf6;
     text-decoration: underline;
     cursor: pointer; /* Muda o mouse para a "mãozinha" */
@@ -374,8 +374,8 @@ footer {
 /* Estilo da janela Dialog (Popup) */
 dialog {
     border-radius: 8px;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 600px;
+    max-height: 600px;
     overflow: auto;
     margin: auto;
     top: 50%;
@@ -402,7 +402,7 @@ dialog img {
     /* Remove estilos padrão de botão */
     background: none;
     border: none;
-    padding: 0;
+    padding-top: 20px;
     font: inherit;
     cursor: pointer;
     outline: inherit;
