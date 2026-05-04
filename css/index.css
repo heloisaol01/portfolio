@@ -374,8 +374,8 @@ footer {
 /* Estilo da janela Dialog (Popup) */
 dialog {
     border-radius: 8px;
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 800px;
+    max-height: 800px;
     overflow: auto;
     margin: auto;
     top: 50%;
@@ -384,6 +384,8 @@ dialog {
     padding: 2rem;        /* espaço entre a imagem e a borda da janela */
     border: none;         /* remove o contorno */
     outline: none;        /* remove outline caso exista */
+    box-sizing: border-box;
+    position: fixed;
 }
 
 
