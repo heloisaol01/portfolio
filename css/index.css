@@ -349,6 +349,39 @@ footer {
     font-size: 0.85rem;
 }
 
+/* BOTAO - POP-UP
+/* Estilo do botão que abre o popup */
+.btn-abrir {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo da janela Dialog (Popup) */
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Backdrop: Fundo escuro atrás do modal */
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Estilo da Imagem dentro do modal */
+dialog img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Botão fechar dentro do modal */
+.btn-fechar {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 /* Responsividade - Tablet (768px+) */
 @media (min-width: 768px) {
     .projetos-grid {
