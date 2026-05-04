@@ -373,7 +373,7 @@ footer {
 
 /* Estilo da janela Dialog (Popup) */
 dialog {
-    margin: auto;
+    align-items: center;
     border: none;
     border-radius: 8px;
     padding: 20px;
