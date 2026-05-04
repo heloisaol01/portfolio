@@ -362,7 +362,7 @@ footer {
     cursor: pointer;
     outline: inherit;
 
-    align-content: left;
+    text-align: left;
     color: #8b5cf6;
     text-decoration: underline;
     cursor: pointer; /* Muda o mouse para a "mãozinha" */
@@ -428,7 +428,7 @@ dialog img {
     }
 
     .interesses-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .sobre-grid {
