@@ -351,6 +351,24 @@ footer {
     font-size: 0.85rem;
 }
 
+/* Projetos em andamento */
+#projetos-andamento .projeto-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.badge-andamento {
+    display: inline-block;
+    background-color: #f6ad55;
+    color: #7b341e;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    margin-bottom: 0.5rem;
+}
+
 /* BOTAO - POP-UP
 /* Estilo do botão que abre o popup */
 .btn-abrir {
