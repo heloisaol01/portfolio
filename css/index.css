@@ -366,13 +366,8 @@ dialog {
     border: none;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/* Backdrop: Fundo escuro atrás do modal */
-dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.7);
-}
 
 /* Estilo da Imagem dentro do modal */
 dialog img {
