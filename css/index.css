@@ -352,8 +352,12 @@ footer {
 /* BOTAO - POP-UP
 /* Estilo do botão que abre o popup */
 .btn-abrir {
-    padding: 10px 20px;
-    cursor: pointer;
+    display: inline-block;
+    color: #8b5cf6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: color 0.3s;
 }
 
 /* Estilo da janela Dialog (Popup) */
@@ -371,7 +375,7 @@ dialog::backdrop {
 
 /* Estilo da Imagem dentro do modal */
 dialog img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
