@@ -362,7 +362,7 @@ footer {
     cursor: pointer;
     outline: inherit;
 
-    display: inline-block;
+    align-items: left;
     color: #8b5cf6;
     text-decoration: underline;
     cursor: pointer; /* Muda o mouse para a "mãozinha" */
@@ -373,10 +373,12 @@ footer {
 
 /* Estilo da janela Dialog (Popup) */
 dialog {
-    align-items: center;
+    align-items: left;
     border: none;
     border-radius: 8px;
     padding: 20px;
+    width: 500px; 
+    height: 500px;
 }
 
 
@@ -386,6 +388,8 @@ dialog img {
     height: auto;
     border-radius: 8px;
     display: block;
+    width: 100%;
+    height: 75%;
 }
 
 /* Botão fechar dentro do modal */
