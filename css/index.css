@@ -354,7 +354,8 @@ footer {
 .btn-abrir {
     display: inline-block;
     color: #8b5cf6;
-    text-decoration: none;
+    text-decoration: underline;
+    cursor: pointer; /* Muda o mouse para a "mãozinha" */
     font-weight: 600;
     font-size: 0.9rem;
     transition: color 0.3s;
