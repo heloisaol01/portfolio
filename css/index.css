@@ -352,22 +352,35 @@ footer {
 }
 
 /* Projetos em andamento */
-.card-horizontal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
+.projeto-container {
+  display: flex;
+  align-items: flex-start; /* Alinha o texto no topo da imagem */
+  gap: 40px;               /* Espaço entre a imagem e o texto */
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.card-horizontal .projeto-content {
-    flex: 1;
+.projeto-imagem {
+  flex: 1;                 /* Faz a imagem ocupar metade do espaço */
 }
 
-.card-horizontal .projeto-image {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    flex-shrink: 0;
+.projeto-imagem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-color: #ddd;  /* Cor de fundo caso a imagem falhe */
+}
+
+.projeto-texto {
+  flex: 1;                 /* Faz o texto ocupar a outra metade */
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.projeto-texto p {
+  margin: 0 0 5px 0;       /* Pequeno espaçamento entre as linhas de texto */
 }
 
 .badge-andamento {
